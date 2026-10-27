@@ -69,61 +69,6 @@ If you add a dedicated weather notebook/script, these modules provide the exact 
 - Basic Python syntax (variables, lists, functions)
 - Familiarity with running Python scripts from a terminal
 
-## Setup
-
-From the repository root:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # On Windows: .venv\Scripts\activate
-pip install --upgrade pip
-```
-
-This repository currently does **not** include a `requirements.txt`.  
-Install the core learning dependencies manually:
-
-```bash
-pip install matplotlib numpy
-```
-
-Optional for interactive notebook use:
-
-```bash
-pip install notebook
-```
-
-## How to Use the Learning Materials
-
-### Option A: Run module scripts directly
-
-From any module folder:
-
-```bash
-python example.py
-```
-
-### Option B: Use Jupyter Notebook locally
-
-1. Start Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-2. Open a new notebook in the repository root or module folder.
-3. Copy code from each module’s `example.py` into cells and run step by step.
-
-### Option C: Use Google Colab
-
-1. Open [Google Colab](https://colab.research.google.com/).
-2. Upload a module `example.py` file (or copy/paste code into a notebook cell).
-3. Run cells and iterate on plot styles and labels interactively.
-
-## Suggested Learning Path
-
-1. Complete Modules 1–3 to learn plotting basics and readability.
-2. Complete Modules 4–6 to compare multiple series and chart types.
-3. Finish Module 7 to learn practical plotting habits (saving figures, layout).
-4. Build a weather mini-project using real or sample weather data.
-5. Refine charts for storytelling quality (titles, labels, legends, color choices).
 
 ## Repository Structure
 
@@ -151,5 +96,6 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## Future Improvements
 
-- Add a dedicated weather project folder with sample data and end-to-end walkthrough
-- Add Jupyter notebook versions of each module for learners who prefer notebook-first study
+- Connecting to Claude to make the outputs of this project emailed to your inbox. 
+-
+
