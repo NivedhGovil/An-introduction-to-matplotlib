@@ -1,14 +1,14 @@
 # Section 2 — Markers, colors, and line styles
 
-This section covers markers (point symbols), line styles, and color customization. The example demonstrates several keyword arguments that control the plot's appearance.
+This section covers markers (point symbols), line styles, and color customization.
 
-Example (see example.py in this folder for commented version):
+Example:
 
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
 
-ypoints = np.array([3, 8, 1, 10])
+ypoints = np.array([3, 8, 1, 10]) # As x points is not mentioned, the default x-values will be 0 to 3. 
 
 # Basic marker
 plt.plot(ypoints, marker='X')
@@ -22,4 +22,3 @@ plt.show()
 Common markers: 'o' (circle), '*' (star), '.' (point), 'x', 'X', '+', 's' (square), 'D' (diamond)
 Line styles: '-' (solid), ':' (dotted), '--' (dashed), '-.' (dash-dot)
 
-You can also use a format shorthand like '*--y' (marker|line|color).
