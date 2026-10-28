@@ -1,6 +1,6 @@
 # Section 1 — Basic line plot
 
-This section shows how to plot y versus x and how Matplotlib uses default x-values when only y is provided.
+This section shows how to plot y versus x graph. 
 
 Example: 
 
