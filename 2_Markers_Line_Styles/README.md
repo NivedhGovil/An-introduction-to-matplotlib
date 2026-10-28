@@ -19,6 +19,25 @@ plt.plot(ypoints, linestyle='dotted', marker='d', markerfacecolor='red', markere
 plt.show()
 ```
 
-Common markers: 'o' (circle), '*' (star), '.' (point), 'x', 'X', '+', 's' (square), 'D' (diamond)
-Line styles: '-' (solid), ':' (dotted), '--' (dashed), '-.' (dash-dot)
+# Common Markers
+
+| Symbol / Code | Description |
+| :--- | :--- |
+| `o` | Circle |
+| `*` | Star |
+| `.` | Point |
+| `x` | Cross (`x`) |
+| `X` | Uppercase Cross (`X`) |
+| `+` | Plus |
+| `s` | Square |
+| `D` | Diamond |
+
+### Line Styles
+
+| Symbol / Code | Style |
+| :--- | :--- |
+| `-` | Solid |
+| `:` | Dotted |
+| `--` | Dashed |
+| `-.` | Dash-dot |
 
