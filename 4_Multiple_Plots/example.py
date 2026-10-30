@@ -1,9 +1,3 @@
-"""Section 4 — Multiple plots and the format shorthand (example.py)
-
-This example shows using the fmt shorthand to set marker, line style, and color concisely,
-and how to plot multiple series on the same axes.
-"""
-
 import matplotlib.pyplot as plt
 import numpy as np
 
