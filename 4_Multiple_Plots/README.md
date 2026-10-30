@@ -1,8 +1,7 @@
 # Section 4 — Multiple plots and the format shorthand
 
-This short section illustrates the format shorthand (marker|line|color) and shows multiple lines together. Use the shorthand to combine marker, line style, and color in one string.
+This short section illustrates the format shorthand (marker | line | color) and shows multiple lines together. Use the shorthand to combine marker, line style, and color in one string.
 
-Example (see example.py for commented version):
 
 ```python
 import matplotlib.pyplot as plt
@@ -17,4 +16,4 @@ plt.plot(x, y2, 'o-')    # circle markers, solid line, default color
 plt.show()
 ```
 
-When plotting many subplots use plt.subplots() or figure/axes API for fine control.
+When plotting many subplots (small graphs placed next to each other) use plt.subplots() or figure/axes API for fine control.
