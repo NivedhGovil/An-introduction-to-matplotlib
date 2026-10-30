@@ -3,7 +3,6 @@
 This section covers scatter plots (point clouds), adding horizontal lines, legends, and labels.
 
 
-
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
