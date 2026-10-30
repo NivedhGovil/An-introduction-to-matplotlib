@@ -2,7 +2,7 @@
 
 This section covers scatter plots (point clouds), adding horizontal lines, legends, and labels.
 
-Example (see example.py in this folder for a commented version):
+
 
 ```python
 import numpy as np
