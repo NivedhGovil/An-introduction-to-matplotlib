@@ -1,8 +1,3 @@
-"""Section 7 — Tips and further reading (example.py)
-
-Helpful snippets for saving figures, adjusting figure size, and using subplots.
-"""
-
 import matplotlib.pyplot as plt
 import numpy as np
 
