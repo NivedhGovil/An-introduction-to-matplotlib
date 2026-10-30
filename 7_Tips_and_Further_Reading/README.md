@@ -2,7 +2,6 @@
 
 This final section provides common tips for saving figures, adjusting figure size, and using subplots. It also links to the official Matplotlib documentation.
 
-Example tips (see example.py in this folder for commented usage):
 
 ```python
 # Save figure to disk with high DPI and tight layout
