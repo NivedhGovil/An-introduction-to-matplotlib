@@ -1,8 +1,3 @@
-"""Section 3 — Titles, labels, and ticks (example.py)
-
-This script shows how to set a plot title, axis labels, explicit x ticks, and how to plot multiple series.
-Each line includes a comment explaining its purpose.
-"""
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -28,5 +23,5 @@ plt.plot(x, y1)  # first series
 plt.plot(x, y2)  # second series
 plt.plot(x, y3)  # third series
 
-# Render the figure
+
 plt.show()
