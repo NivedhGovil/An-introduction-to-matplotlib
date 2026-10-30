@@ -1,8 +1,3 @@
-"""Section 6 — Scatter plots and annotations (example.py)
-
-Creates two scatter series, adds labels, a guide line, and a legend.
-Comments explain each parameter.
-"""
 
 import numpy as np
 import matplotlib.pyplot as plt
