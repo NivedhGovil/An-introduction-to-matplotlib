@@ -2,7 +2,6 @@
 
 This section shows how to create vertical bar charts and set figure size. For horizontal bars use plt.barh(...).
 
-Example (see example.py in this folder for commented version):
 
 ```python
 import numpy as np
@@ -12,7 +11,7 @@ categories = np.array(["Grains", "Fruit", "Vegetables", "Protein", "Dairy"])
 values = np.array([4, 3, 2, 5, 3])
 
 plt.figure(figsize=(7,5))
-plt.bar(categories, values, color="#a87132")
+plt.bar(categories, values, color="#a87132") # categories is the list of titles in the x-axis. color sets the color of the bars
 plt.show()
 ```
 
